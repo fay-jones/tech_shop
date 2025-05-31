@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>Meet our Team</h1>
+<div>
+    {% for member in members %}
+     <p>{{member}}</p>
+    {% endfor %}
+</div>
+
+{% endblock body %}

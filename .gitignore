@@ -1,0 +1,6 @@
+.venv
+.env
+
+*.pyc
+/src/media/*
+/src/products/*.jpeg
